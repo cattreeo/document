@@ -1,0 +1,17 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "description": "vuepress搭建我的学习笔记",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.10"
+  }
+}
