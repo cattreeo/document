@@ -19,7 +19,7 @@ module.exports = {
                     { text: 'Group2', items: [{ text: 'Home', link: '/' },] }
                 ]
             },
-            { text: 'GitHub', link: 'https://github.com/cattreeo/document/tree/gh-pages' },
+            { text: 'GitHub', link: 'https://github.com/cattreeo/document' },
         ],
         sidebar: 'auto'
     },
