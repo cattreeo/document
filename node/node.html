@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Nodejs | 猫的树</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="猫的树个人笔记">
+    <meta name="referrer" content="no-referrer">
+    
+    <link rel="preload" href="/document/assets/css/0.styles.3be45a55.css" as="style"><link rel="preload" href="/document/assets/js/app.407b5965.js" as="script"><link rel="preload" href="/document/assets/js/2.3dc1b8de.js" as="script"><link rel="preload" href="/document/assets/js/1.54be531d.js" as="script"><link rel="preload" href="/document/assets/js/25.469b1659.js" as="script"><link rel="prefetch" href="/document/assets/js/10.563984b0.js"><link rel="prefetch" href="/document/assets/js/11.c389195a.js"><link rel="prefetch" href="/document/assets/js/12.81539b0f.js"><link rel="prefetch" href="/document/assets/js/13.4d4410c4.js"><link rel="prefetch" href="/document/assets/js/14.37ef2a72.js"><link rel="prefetch" href="/document/assets/js/15.5542c093.js"><link rel="prefetch" href="/document/assets/js/16.d48fd1ce.js"><link rel="prefetch" href="/document/assets/js/17.bd8d538c.js"><link rel="prefetch" href="/document/assets/js/18.6d3b94c1.js"><link rel="prefetch" href="/document/assets/js/19.eb35cfee.js"><link rel="prefetch" href="/document/assets/js/20.7d8a0e52.js"><link rel="prefetch" href="/document/assets/js/21.db1b5d88.js"><link rel="prefetch" href="/document/assets/js/22.ac872159.js"><link rel="prefetch" href="/document/assets/js/23.cbb9b3bb.js"><link rel="prefetch" href="/document/assets/js/24.3bad736d.js"><link rel="prefetch" href="/document/assets/js/3.5322f14a.js"><link rel="prefetch" href="/document/assets/js/4.84e1e480.js"><link rel="prefetch" href="/document/assets/js/5.f0541060.js"><link rel="prefetch" href="/document/assets/js/6.dfb06aa0.js"><link rel="prefetch" href="/document/assets/js/7.7551a9fb.js"><link rel="prefetch" href="/document/assets/js/vendors~docsearch.5e19b665.js">
+    <link rel="stylesheet" href="/document/assets/css/0.styles.3be45a55.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/document/" class="home-link router-link-active"><img src="/document/assets/img/logo2.jpg" alt="猫的树" class="logo"> <span class="site-name can-hide">猫的树</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/document/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          MySQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/database/MySQL基础篇.html" class="nav-link">
+  MySQL基础篇
+</a></li><li class="dropdown-subitem"><a href="/document/database/MySQL进阶篇.html" class="nav-link">
+  MySQL进阶篇
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Group2
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/" class="nav-link">
+  Home
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node" class="dropdown-title"><span class="title">Node</span> <span class="arrow down"></span></button> <button type="button" aria-label="Node" class="mobile-dropdown-title"><span class="title">Node</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          nodejs
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/node/node.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  node
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://github.com/cattreeo/document" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/document/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          MySQL
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/database/MySQL基础篇.html" class="nav-link">
+  MySQL基础篇
+</a></li><li class="dropdown-subitem"><a href="/document/database/MySQL进阶篇.html" class="nav-link">
+  MySQL进阶篇
+</a></li></ul></li><li class="dropdown-item"><h4>
+          Group2
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/" class="nav-link">
+  Home
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Node" class="dropdown-title"><span class="title">Node</span> <span class="arrow down"></span></button> <button type="button" aria-label="Node" class="mobile-dropdown-title"><span class="title">Node</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          nodejs
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/document/node/node.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  node
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://github.com/cattreeo/document" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Nodejs</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/document/node/node.html#npm-和-yarn-常用命令-更新、删除、清缓存" class="sidebar-link">npm 和 yarn 常用命令 （更新、删除、清缓存）</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/document/node/node.html#npm" class="sidebar-link">npm</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#yarn" class="sidebar-link">yarn</a></li></ul></li><li><a href="/document/node/node.html#yarn-2" class="sidebar-link">yarn</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/document/node/node.html#yarn-安装" class="sidebar-link">yarn 安装</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#查看版本" class="sidebar-link">查看版本</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#开始一个新工程" class="sidebar-link">开始一个新工程</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#添加一个依赖" class="sidebar-link">添加一个依赖</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#更新一个依赖" class="sidebar-link">更新一个依赖</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#移除一个依赖" class="sidebar-link">移除一个依赖</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#安装-package-json-中的所有文件" class="sidebar-link">安装 package.json 中的所有文件</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#运行脚本" class="sidebar-link">运行脚本</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#显示某个包信息" class="sidebar-link">显示某个包信息</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#列出项目的所有依赖" class="sidebar-link">列出项目的所有依赖</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#管理-yarn-配置文件" class="sidebar-link">管理 yarn 配置文件</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#缓存" class="sidebar-link">缓存</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#yarn-注册淘宝镜像源加速" class="sidebar-link">Yarn 注册淘宝镜像源加速</a></li></ul></li><li><a href="/document/node/node.html#npm-2" class="sidebar-link">npm</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/document/node/node.html#常用命令" class="sidebar-link">常用命令</a></li><li class="sidebar-sub-header"><a href="/document/node/node.html#npm-全局安装" class="sidebar-link">NPM 全局安装</a></li></ul></li><li><a href="/document/node/node.html#nvm" class="sidebar-link">nvm</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/document/node/node.html#常用命令-2" class="sidebar-link">常用命令</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="nodejs"><a href="#nodejs" class="header-anchor">#</a> Nodejs</h1> <h2 id="npm-和-yarn-常用命令-更新、删除、清缓存"><a href="#npm-和-yarn-常用命令-更新、删除、清缓存" class="header-anchor">#</a> npm 和 yarn 常用命令 （更新、删除、清缓存）</h2> <h3 id="npm"><a href="#npm" class="header-anchor">#</a> npm</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 查看 npm 全局安装过的包</span>
+<span class="token function">npm</span> list <span class="token parameter variable">-g</span> <span class="token parameter variable">--depth</span> <span class="token number">0</span>
+<span class="token comment"># 全局安装</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span> <span class="token parameter variable">-g</span>
+<span class="token comment"># 安装项目所有依赖</span>
+<span class="token function">npm</span> <span class="token function">install</span>
+<span class="token comment"># 安装指定版本</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>@1.2.3
+<span class="token comment"># 安装最新版本</span>
+<span class="token function">npm</span> i <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>@latest
+<span class="token comment"># 删除全局的包</span>
+<span class="token function">npm</span> uninstall <span class="token parameter variable">-g</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 删除 node_modules 目录下面的包</span>
+<span class="token function">npm</span> uninstall <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 更新指定包</span>
+<span class="token function">npm</span> update <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 更新指定全局包</span>
+<span class="token function">npm</span> update <span class="token parameter variable">-g</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 更新本地安装的包</span>
+<span class="token comment"># 在 package.json 文件所在的目录中执行 npm update 命令</span>
+<span class="token comment"># 执行 npm outdated 命令。不应该有任何输出。</span>
+
+</code></pre></div><h3 id="yarn"><a href="#yarn" class="header-anchor">#</a> yarn</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 查看 yarn 全局安装过的包</span>
+<span class="token function">yarn</span> global list <span class="token parameter variable">--depth</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token comment"># 全局安装</span>
+<span class="token function">yarn</span> global <span class="token function">add</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 安装所有依赖</span>
+<span class="token function">yarn</span>
+<span class="token comment"># 安装指定版本</span>
+<span class="token function">yarn</span> <span class="token function">add</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>@<span class="token operator">&lt;</span>version<span class="token operator">&gt;</span>
+<span class="token comment"># 安装最新版本</span>
+<span class="token function">yarn</span> <span class="token function">add</span> <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 删除包,会更新package.json和yarn.lock</span>
+<span class="token function">yarn</span> remove <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 更新包</span>
+<span class="token function">yarn</span> upgrade
+<span class="token comment"># 更新指定的包</span>
+<span class="token function">yarn</span> upgrade <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+<span class="token comment"># 获取可更新的包列表选择更新</span>
+<span class="token function">yarn</span> upgrade-interactive <span class="token parameter variable">--latest</span>
+<span class="token comment"># 更新全局依赖</span>
+<span class="token function">yarn</span> global upgrade <span class="token parameter variable">--latest</span>
+<span class="token comment"># 更新全局依赖，有交互</span>
+<span class="token function">yarn</span> global upgrade-interactive <span class="token parameter variable">--latest</span>
+<span class="token comment"># 列出已缓存的包</span>
+<span class="token function">yarn</span> cache list
+<span class="token comment"># 查找缓存包的路径</span>
+<span class="token function">yarn</span> cache <span class="token function">dir</span>
+<span class="token comment"># 清除缓存的包</span>
+<span class="token function">yarn</span> cache clean
+
+</code></pre></div><h2 id="yarn-2"><a href="#yarn-2" class="header-anchor">#</a> yarn</h2> <h3 id="yarn-安装"><a href="#yarn-安装" class="header-anchor">#</a> yarn 安装</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> <span class="token function">yarn</span>
+</code></pre></div><h3 id="查看版本"><a href="#查看版本" class="header-anchor">#</a> 查看版本</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token parameter variable">-v</span>
+</code></pre></div><h3 id="开始一个新工程"><a href="#开始一个新工程" class="header-anchor">#</a> 开始一个新工程</h3> <p><a href="https://so.csdn.net/so/search?q=yarn&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">yarn<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> init 与 npm init 一样通过交互式会话创建一个 package.json</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> init <span class="token comment"># yarn</span>
+
+<span class="token function">npm</span> init <span class="token comment"># npm</span>
+</code></pre></div><p>跳过会话，直接通过默认值生成 <a href="https://so.csdn.net/so/search?q=package&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">package<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>.json</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> init <span class="token parameter variable">--yes</span> <span class="token comment"># 简写 -y</span>
+<span class="token function">npm</span> init <span class="token parameter variable">-y</span>
+</code></pre></div><h3 id="添加一个依赖"><a href="#添加一个依赖" class="header-anchor">#</a> 添加一个依赖</h3> <p>通过 yarn add 添加依赖会更新 package.json 以及 yarn.lock 文件</p> <h4 id="_1-开发环境"><a href="#_1-开发环境" class="header-anchor">#</a> 1).开发环境</h4> <p>yarn add --dev 依赖会记录在 package.json 的 devDependencies 下 开发环境</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> webpack <span class="token parameter variable">--dev</span> <span class="token comment"># yarn 简写 -D</span>
+
+<span class="token function">npm</span> <span class="token function">install</span> webpack --save-dev <span class="token comment"># npm</span>
+</code></pre></div><h4 id="_2-生产环境"><a href="#_2-生产环境" class="header-anchor">#</a> 2).生产环境</h4> <p>yarn add 依赖会记录在 package.json 的 dependencies 下 生产环境</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">add</span> webpack@2.3.3 <span class="token comment"># yarn --save 是 yarn 默认的，默认记录在 package.json 中</span>
+
+<span class="token function">npm</span> <span class="token function">install</span> webpack@2.3.3 <span class="token parameter variable">--save</span> <span class="token comment"># npm</span>
+</code></pre></div><h4 id="_3-全局"><a href="#_3-全局" class="header-anchor">#</a> 3).全局</h4> <p>yarn global add 全局安装依赖</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> global <span class="token function">add</span> webpack <span class="token comment"># yarn</span>
+
+<span class="token function">npm</span> <span class="token function">install</span> webpack <span class="token parameter variable">-g</span> <span class="token comment"># npm</span>
+</code></pre></div><h3 id="更新一个依赖"><a href="#更新一个依赖" class="header-anchor">#</a> 更新一个依赖</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> upgrade <span class="token comment"># 升级所有依赖项，不记录在 package.json 中</span>
+<span class="token function">npm</span> update <span class="token comment"># npm 可以通过 ‘--save|--save-dev’ 指定升级哪类依赖</span>
+
+<span class="token function">yarn</span> upgrade webpack <span class="token comment"># 升级指定包</span>
+<span class="token function">npm</span> update webpack --save-dev <span class="token comment"># npm --save-dev 简写 -D</span>
+
+<span class="token function">yarn</span> upgrade <span class="token parameter variable">--latest</span> <span class="token comment"># 忽略版本规则，升级到最新版本，并且更新 package.json</span>
+</code></pre></div><h3 id="移除一个依赖"><a href="#移除一个依赖" class="header-anchor">#</a> 移除一个依赖</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> remove <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="安装-package-json-中的所有文件"><a href="#安装-package-json-中的所有文件" class="header-anchor">#</a> 安装 package.json 中的所有文件</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> 或者 <span class="token function">yarn</span> <span class="token function">install</span>
+<span class="token function">yarn</span> <span class="token function">install</span> <span class="token comment"># 或者 yarn 在 node_modules 目录安装 package.json 中列出的所有依赖</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token comment"># npm</span>
+<span class="token function">yarn</span> <span class="token function">install</span> 安装时，如果 node_modules 中有相应的包则不会重新下载 <span class="token parameter variable">--force</span> 可以强制
+</code></pre></div><h4 id="重新下载安装"><a href="#重新下载安装" class="header-anchor">#</a> 重新下载安装</h4> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> <span class="token function">install</span> <span class="token parameter variable">--force</span> <span class="token comment"># 强制下载安装</span>
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">--force</span> <span class="token comment"># npm</span>
+</code></pre></div><h3 id="运行脚本"><a href="#运行脚本" class="header-anchor">#</a> 运行脚本</h3> <p>yarn run 用来执行在 package.json 中 scripts 属性下定义的脚本</p> <div class="language-bash extra-class"><pre class="language-bash"><code>// package.json
+<span class="token punctuation">{</span>
+    <span class="token string">&quot;scripts&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+    <span class="token string">&quot;dev&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;node app.js&quot;</span>,
+    <span class="token string">&quot;start&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;node app.js&quot;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+
+<span class="token function">yarn</span> run dev <span class="token comment"># yarn 执行 dev 对应的脚本 node app.js</span>
+<span class="token function">yarn</span> dev
+
+<span class="token function">npm</span> run <span class="token comment"># npm</span>
+<span class="token function">yarn</span> start <span class="token comment"># yarn</span>
+<span class="token function">npm</span> start <span class="token comment"># npm</span>
+
+与 <span class="token function">npm</span> 一样 可以有 <span class="token function">yarn</span> start 和 <span class="token function">yarn</span> <span class="token builtin class-name">test</span> 两个简写的运行脚本方式
+</code></pre></div><h3 id="显示某个包信息"><a href="#显示某个包信息" class="header-anchor">#</a> 显示某个包信息</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> info <span class="token operator">&lt;</span>package<span class="token operator">&gt;</span>
+</code></pre></div><h3 id="列出项目的所有依赖"><a href="#列出项目的所有依赖" class="header-anchor">#</a> 列出项目的所有依赖</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> list
+<span class="token function">yarn</span> list <span class="token comment"># 列出当前项目的依赖</span>
+<span class="token function">npm</span> list <span class="token comment"># npm</span>
+<span class="token function">yarn</span> list <span class="token parameter variable">--depth</span><span class="token operator">=</span><span class="token number">0</span> <span class="token comment"># 限制依赖的深度</span>
+<span class="token function">sudo</span> <span class="token function">yarn</span> global list <span class="token comment"># 列出全局安装的模块</span>
+</code></pre></div><h3 id="管理-yarn-配置文件"><a href="#管理-yarn-配置文件" class="header-anchor">#</a> 管理 yarn 配置文件</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> coinfig
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> key value <span class="token comment"># 设置</span>
+<span class="token function">npm</span> config <span class="token builtin class-name">set</span> key value
+<span class="token function">yarn</span> config get key <span class="token comment"># 读取值</span>
+<span class="token function">npm</span> config get key
+<span class="token function">yarn</span> config delete key <span class="token comment"># 删除</span>
+<span class="token function">npm</span> config delete key
+<span class="token function">yarn</span> config list <span class="token comment"># 显示当前配置</span>
+<span class="token function">npm</span> config list
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> registry https://registry.npm.taobao.org <span class="token comment"># 设置淘宝镜像</span>
+<span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry https://registry.npm.taobao.org <span class="token comment"># npm</span>
+</code></pre></div><h3 id="缓存"><a href="#缓存" class="header-anchor">#</a> 缓存</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> cache
+<span class="token function">sudo</span> <span class="token function">yarn</span> cache list <span class="token comment"># 列出已缓存的每个包</span>
+<span class="token function">sudo</span> <span class="token function">yarn</span> cache <span class="token function">dir</span> <span class="token comment"># 返回 全局缓存位置</span>
+<span class="token function">sudo</span> <span class="token function">yarn</span> cache clean <span class="token comment"># 清除缓存</span>
+</code></pre></div><h3 id="yarn-注册淘宝镜像源加速"><a href="#yarn-注册淘宝镜像源加速" class="header-anchor">#</a> <strong>Yarn 注册淘宝镜像源加速</strong></h3> <ol><li>查看镜像源</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> config get registry
+</code></pre></div><p>如果显示的是：</p> <div class="language-bash extra-class"><pre class="language-bash"><code>https://registry.yarnpkg.com
+</code></pre></div><p>则表示不是国内镜像源。可以通过以下步骤设置</p> <ol start="2"><li>设置为淘宝镜像源</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code> <span class="token function">yarn</span> config <span class="token builtin class-name">set</span> registry https://registry.npm.taobao.org/
+</code></pre></div><p>打开<code>poweshell</code>或<code>cmd</code>工具，输入以下命令：</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">yarn</span> config <span class="token builtin class-name">set</span> registry https://registry.npm.taobao.org <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> disturl https://npm.taobao.org/dist <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> electron_mirror https://npm.taobao.org/mirrors/electron/ <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> sass_binary_site https://npm.taobao.org/mirrors/node-sass/ <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> phantomjs_cdnurl https://npm.taobao.org/mirrors/phantomjs/ <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> chromedriver_cdnurl https://cdn.npm.taobao.org/dist/chromedriver <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> operadriver_cdnurl https://cdn.npm.taobao.org/dist/operadriver <span class="token parameter variable">-g</span>
+<span class="token function">yarn</span> config <span class="token builtin class-name">set</span> fse_binary_host_mirror https://npm.taobao.org/mirrors/fsevents <span class="token parameter variable">-g</span>
+</code></pre></div><h2 id="npm-2"><a href="#npm-2" class="header-anchor">#</a> npm</h2> <h3 id="常用命令"><a href="#常用命令" class="header-anchor">#</a> 常用命令</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">## 查看npm版本</span>
+<span class="token function">npm</span> <span class="token parameter variable">-v</span>
+
+<span class="token comment">## 查看npm镜像源</span>
+<span class="token function">npm</span> config get registry
+
+<span class="token comment">## 全局设置taobao镜像源</span>
+<span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry http://registry.npm.taobao.org  <span class="token comment">##已经更换了地址</span>
+<span class="token function">npm</span> config <span class="token builtin class-name">set</span> registry https://registry.npmmirror.com  <span class="token comment">##最新淘宝npm镜像</span>
+
+<span class="token comment">## 查看已安装的所有全局包</span>
+<span class="token function">npm</span> <span class="token function">ls</span> <span class="token parameter variable">-g</span>
+</code></pre></div><blockquote><p>从 npm 5.0.0 开始,已安装的模块默认添加为依赖项,<em>因此不再需要 --save 选项。</em></p></blockquote> <h3 id="npm-全局安装"><a href="#npm-全局安装" class="header-anchor">#</a> NPM 全局安装</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>全局包是保存在电脑user目录下的，只需安装一次。
+
+<span class="token number">1</span>.安装全局包
+
+码农版：
+
+<span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">--global</span> 包名
+
+懒人版:
+
+<span class="token function">npm</span> i <span class="token parameter variable">-g</span> 包名
+
+<span class="token number">2</span>.查看已安装的所有全局包
+
+<span class="token function">npm</span> <span class="token function">ls</span> <span class="token parameter variable">-g</span>
+
+<span class="token number">3</span>查看已安装的指定包
+
+<span class="token function">npm</span> <span class="token function">ls</span> <span class="token parameter variable">-g</span> 包名
+
+<span class="token number">3</span>.更新全局包
+
+<span class="token function">npm</span> update <span class="token parameter variable">-g</span> 包名
+
+<span class="token number">4</span>.卸载全局包
+
+<span class="token function">npm</span> <span class="token function">rm</span> <span class="token parameter variable">-g</span>  包名
+</code></pre></div><h2 id="nvm"><a href="#nvm" class="header-anchor">#</a> nvm</h2> <p>下载<a href="https://so.csdn.net/so/search?q=nvm&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreferrer">nvm<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>来管理 node 版本</p> <blockquote><p>官网：https://github.com/coreybutler/nvm-windows/releases</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>- nvm list 查看已经安装的版本
+- nvm list installed 查看已经安装的版本
+- nvm list available 查看网络可以安装的版本
+</code></pre></div><h3 id="常用命令-2"><a href="#常用命令-2" class="header-anchor">#</a> 常用命令</h3> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment">## 查看nvm版本</span>
+nvm <span class="token parameter variable">-v</span>
+
+<span class="token comment">## nvm设置npm淘宝镜像</span>
+nvm npm_mirror https://npm.taobao.org/mirrors/npm/
+
+<span class="token comment">## 查看已经安装的版本</span>
+nvm <span class="token function">ls</span>
+
+<span class="token comment">## 安装指定版本</span>
+nvm <span class="token function">install</span> <span class="token number">16.14</span>.2
+
+<span class="token comment">## 切换使用指定的版本node</span>
+nvm use <span class="token number">16.14</span>.2
+
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code>nvm <span class="token function">install</span>    <span class="token comment">## 安装最新版本nvm</span>
+
+nvm use <span class="token operator">&lt;</span>version<span class="token operator">&gt;</span>  <span class="token comment">## 切换使用指定的版本node</span>
+
+nvm <span class="token function">ls</span>   <span class="token comment">## 列出所有版本</span>
+
+nvm current  <span class="token comment">## 显示当前版本</span>
+
+nvm <span class="token builtin class-name">alias</span> <span class="token operator">&lt;</span>name<span class="token operator">&gt;</span> <span class="token operator">&lt;</span>version<span class="token operator">&gt;</span> <span class="token comment">## 给不同的版本号添加别名</span>
+
+nvm <span class="token builtin class-name">unalias</span> <span class="token operator">&lt;</span>name<span class="token operator">&gt;</span> <span class="token comment">## 删除已定义的别名</span>
+
+nvm reinstall-packages <span class="token operator">&lt;</span>version<span class="token operator">&gt;</span> <span class="token comment">## 在当前版本node环境下，重新全局安装指定版本号的npm包</span>
+
+nvm on  <span class="token comment">##打开nodejs控制</span>
+
+nvm off  <span class="token comment">##关闭nodejs控制</span>
+
+nvm proxy  <span class="token comment">##查看设置与代理</span>
+
+<span class="token comment">## 设置或者查看setting.txt中的node_mirror，如果不设置的默认是 https://nodejs.org/dist/</span>
+nvm node_mirror <span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+nvm node_mirror https://npm.taobao.org/mirrors/node/ <span class="token comment">## 淘宝镜像</span>
+
+<span class="token comment">## 设置或者查看setting.txt中的npm_mirror,如果不设置的话默认的是： https://github.com/npm/npm/archive/.</span>
+nvm npm_mirror <span class="token punctuation">[</span>url<span class="token punctuation">]</span>
+nvm npm_mirror https://npm.taobao.org/mirrors/npm/ <span class="token comment">## 淘宝镜像</span>
+
+
+<span class="token comment">## 或者在nvm中的settings.txt中添加这两行</span>
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+
+
+nvm uninstall <span class="token operator">&lt;</span>version<span class="token operator">&gt;</span>  <span class="token comment">##卸载制定的版本</span>
+
+nvm use <span class="token punctuation">[</span>version<span class="token punctuation">]</span> <span class="token punctuation">[</span>arch<span class="token punctuation">]</span>  <span class="token comment">##切换制定的node版本和位数</span>
+
+nvm root <span class="token punctuation">[</span>path<span class="token punctuation">]</span>  <span class="token comment">##设置和查看root路径</span>
+
+nvm version  <span class="token comment">##查看当前的版本</span>
+nvm <span class="token parameter variable">-v</span>  <span class="token comment">##查看当前的版本</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/document/assets/js/app.407b5965.js" defer></script><script src="/document/assets/js/2.3dc1b8de.js" defer></script><script src="/document/assets/js/1.54be531d.js" defer></script><script src="/document/assets/js/25.469b1659.js" defer></script>
+  </body>
+</html>
